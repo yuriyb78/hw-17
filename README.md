@@ -1,6 +1,6 @@
-# Проект по автоматизации тестовых сценариев для сайта группы компаний IBS
+# Проект по автоматизации тестовых сценариев для сайта БФТ-Холдинг
 <p align="center">
-<a href="https://ibs.ru/"><img title="Логотип группы компаний IBS" src="https://bftcom.com/local/templates/bftnew/img/logo.svg"></a>
+<a href="https://bftcom.com"><img title="Логотип БФТ" src="https://bftcom.com/local/templates/bftnew/img/logo.svg"></a>
 </p>
 
 ## :scroll: Содержание:
