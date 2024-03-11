@@ -24,7 +24,5 @@ public interface DriverConfig extends Config {
     @Key("browser.url")
     String browserUrl();
 
-    @DefaultValue("true")
-    Boolean isRemote();
 
 }
