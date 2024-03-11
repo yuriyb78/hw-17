@@ -35,7 +35,7 @@ public class PageCareerTest extends BaseTests {
         });
 
         step("Проверка наличия блока c заказчиками", () -> {
-            checkCareerPage.checkSectonWorks();
+            checkCareerPage.checkSectionWorks();
         });
     }
 
@@ -75,7 +75,7 @@ public class PageCareerTest extends BaseTests {
         });
 
         step("Проверка наличия в меню кнопки 'Хочу работать'", () -> {
-            checkCareerPage.checkbtnWantWorkThis();
+            checkCareerPage.checkBtnWantWorkThis();
         });
     }
 

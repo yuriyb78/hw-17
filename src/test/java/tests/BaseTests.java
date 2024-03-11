@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-import static java.lang.String.format;
+
 
 public class BaseTests {
 

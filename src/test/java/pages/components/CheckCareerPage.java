@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class CheckCareerPage {
 
-    public final SelenideElement animatedSection = $("h1.aos-animate"),
+    private final SelenideElement animatedSection = $("h1.aos-animate"),
                                 sectionWorks = $(".works"),
                                 socFondSection = $(".works-item--blue"),
                                 btnWantWorkThis = $(".front-menu [data-graph-path=\"modalVacancy\"]"),
@@ -16,7 +16,7 @@ public class CheckCareerPage {
         animatedSection.shouldHave(text(" РОССИЙСКИЙ РАЗРАБОТЧИК ПРОГРАММНЫХ ПРОДУКТОВ "));
     }
 
-    public void checkSectonWorks () {
+    public void checkSectionWorks () {
         sectionWorks.shouldBe(visible);
     }
 
@@ -30,7 +30,7 @@ public class CheckCareerPage {
                         ", «Электронный больничный», обеспечение эксплуатации информационных систем Фонда, Электронный архив "));
     }
 
-    public void checkbtnWantWorkThis () {
+    public void checkBtnWantWorkThis () {
         btnWantWorkThis.shouldHave(text("Хочу работать"));
     }
 
