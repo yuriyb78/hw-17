@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
-        "classpath:config/driver.properties"
+        "classpath:config/${env}.properties"
 })
 public interface DriverConfig extends Config {
 
@@ -23,5 +23,8 @@ public interface DriverConfig extends Config {
 
     @Key("browser.url")
     String browserUrl();
+
+    @DefaultValue("true")
+    Boolean isRemote();
 
 }
